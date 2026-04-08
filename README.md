@@ -1,9 +1,12 @@
 # Exploring-Linux-as-a-beginner-
-Project Description
 
+
+**Project Description**
 This project is designed for beginners who want to get started with Linux and learn essential command-line skills. It covers how to deploy a Linux machine and introduces fundamental terminal commands used for navigation, file management, and text processing.
 
 By the end of this project, you’ll be able to confidently use the Linux terminal to perform basic tasks.
+
+
 
 ⚙️ 1. Deploying a Linux Machine
 
@@ -20,38 +23,46 @@ Option 3: Use Online Terminal
 Platforms like:
 https://replit.com
 https://linuxzoo.net
-💻 2. Opening the Command Prompt (Terminal)
+
+
+
+2. Opening the Command Prompt (Terminal)
 
 Once Linux is installed:
-
 Press Ctrl + Alt + T (Ubuntu)
 Or search for Terminal
-📚 3. Basic Linux Commands
-🔊 echo – Print text to terminal
+
+
+
+
+3. Basic Linux Commands
+
+
+
+echo – Print text to terminal
 echo "Hello, Linux!"
 
 Output:
-
 Hello, Linux!
-👤 whoami – Show current user
+
+whoami – Show current user
 whoami
 
-Output:
+Output:ubuntu
 
-ubuntu
-📂 pwd – Print current directory
+pwd – Print current directory
 pwd
 
-Output:
+Output:/home/ubuntu
 
-/home/ubuntu
-📁 ls – List files and folders
+
+ls – List files and folders
 ls
 
-With details:
+With details:ls -l
 
-ls -l
-🔁 cd – Change directory
+
+cd – Change directory
 cd Documents
 
 Go back:
@@ -63,20 +74,20 @@ Go home:
 cd ~
 📄 cat – Display file content
 cat file.txt
-🔍 find – Search for files
+
+
+find – Search for files
 find . -name "file.txt"
 
 Search in entire system:
-
 find / -name "file.txt"
-🔢 wc – Count lines, words, characters
+
+
+wc – Count lines, words, characters
 wc file.txt
 
-Example output:
+Example output: 10  50 300 file.txt (lines, words, characters)
 
-10  50 300 file.txt
-
-(lines, words, characters)
 
 🔎 grep – Search inside files
 grep "hello" file.txt
